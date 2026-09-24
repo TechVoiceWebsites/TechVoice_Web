@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon_aina";
     src: url("../fonts/flaticon_ainaf07d.ttf?958265746a0f912f42eb35677320f5e9") format("truetype"),
-url("../fonts/flaticon_ainaf07d.woff?958265746a0f912f42eb35677320f5e9") format("woff"),
-url("../fonts/flaticon_ainaf07d.woff2?958265746a0f912f42eb35677320f5e9") format("woff2"),
-url("../fonts/flaticon_ainaf07d.eot?958265746a0f912f42eb35677320f5e9#iefix") format("embedded-opentype"),
-url("../fonts/flaticon_ainaf07d.svg?958265746a0f912f42eb35677320f5e9#flaticon_aina") format("svg");
+    url("../fonts/flaticon_ainaf07d.woff?958265746a0f912f42eb35677320f5e9") format("woff"),
+    url("../fonts/flaticon_ainaf07d.woff2?958265746a0f912f42eb35677320f5e9") format("woff2"),
+    url("../fonts/flaticon_ainaf07d.eot?958265746a0f912f42eb35677320f5e9#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon_ainaf07d.svg?958265746a0f912f42eb35677320f5e9#flaticon_aina") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -17,7 +17,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+=
 .flaticon-shopping-bag:before {
     content: "\f101";
 }
