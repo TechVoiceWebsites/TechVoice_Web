@@ -1,0 +1,137 @@
+/* Container styling */
+.bi-team-details-contact-info {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  animation: fadeInSlide 1s ease-in-out;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+.bi-subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+  animation: slideInLeft 0.8s ease;
+}
+
+.headline-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 15px;
+  animation: slideInRight 0.8s ease;
+}
+
+/* Paragraph styling */
+.info-message {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease;
+}
+
+/* Form grid layout */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  animation: fadeInUp 1s ease;
+}
+
+/* Full width for textarea and button */
+.form-grid textarea,
+.form-grid button {
+  grid-column: span 2;
+}
+
+/* Input styles */
+input,
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Georgia', serif;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #666;
+  outline: none;
+}
+
+/* Button styling */
+button[type="submit"] {
+  padding: 12px;
+  background-color: #a3a3a3;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Animations */
+@keyframes fadeInSlide {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  0% { opacity: 0; transform: translateX(-50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  0% { opacity: 0; transform: translateX(50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* For screen widths up to 1444px */
+@media screen and (max-width: 1440px) {
+  .google-map iframe {
+    height: 450px;
+	/* width: 200%; */
+	
+  }
+}
+
+/* For screen widths up to 1024px */
+@media screen and (max-width: 1024px) {
+  .google-map iframe {
+    height: 400px;
+	width: 340%;
+  }
+}
+@media (min-width: 2560px) {
+  .google-map iframe {
+    height: 800px; /* or 800px based on design preference */
+  }
+
+  .bi-contact-map-content {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}

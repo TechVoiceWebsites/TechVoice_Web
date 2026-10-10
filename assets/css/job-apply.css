@@ -1,0 +1,29 @@
+input, textarea {
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+input:focus, textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+button {
+    padding: 12px 30px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #388e3c;
+}
+.upload-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
